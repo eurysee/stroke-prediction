@@ -2,8 +2,6 @@
 
 This project explores the **Stroke Prediction Dataset** using classical machine learning techniques. It serves as a beginner-level project in the domain of **Artifical Intelligence/Machine Learning**, demonstrating classification, preprocessing, and clustering techniques using real-world medical data.
 
----
-
 ## Dataset
 
 The dataset used in this project is `stroke.csv` from the [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) on Kaggle. It contains information about patients such as:
@@ -20,8 +18,6 @@ The dataset used in this project is `stroke.csv` from the [Stroke Prediction Dat
 - Smoking status
 - Stroke history (target)
 
----
-
 ## Objective
 
 - Preprocess and clean the dataset.
@@ -30,16 +26,12 @@ The dataset used in this project is `stroke.csv` from the [Stroke Prediction Dat
 - Visualize and interpret decision trees.
 - Perform **K-Means Clustering** on selected features and evaluate with **Silhouette Score**.
 
----
-
 ## Technologies & Libraries
 
 - Python 3
 - pandas, numpy
 - matplotlib
 - scikit-learn
-
----
 
 ## Project Workflow
 
@@ -65,8 +57,7 @@ For each dataset (`D1`, `D2`, `D3`), both **KNN** and **Decision Tree** classifi
 - K-Means clustering is applied to 2D feature space (`age` vs `avg_glucose_level`)
 - Optimal cluster count is evaluated using **Silhouette Score**
 - Results are plotted with color-coded clusters
-
---- 
+  
 ### Sample Visualizations
 - Decision tree structure (text-based)
 - Cluster scatter plots by dataset
